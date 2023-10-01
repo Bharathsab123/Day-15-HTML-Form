@@ -1,0 +1,62 @@
+
+#head{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    background-color:bisque;
+}
+
+.container{
+    background-color: white;
+    padding: 0% !important;
+    
+}
+#fname ,#lname ,#address{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#pincode{
+    width: 40%;
+}
+.pad{
+    padding-top: 55px;
+}
+#btn{
+    padding: 5px;
+    width: 70px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#tabel,tr,th,td{
+    border: 1px solid black;
+    padding: 15px;
+   
+
+}
+table{
+    border-collapse: collapse;
+    width:1080px;
+    text-align: center;
+    overflow-x: scroll !important;
+    
+}
+#all{
+    padding: 15px;
+}
+p{
+    padding-top: 25px !important;
+}
+#state,#country{
+    width: 80%;
+}
